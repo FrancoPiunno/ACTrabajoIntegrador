@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.1rem;
+    min-height: 100vh;
+    background: #1a1a1a;;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100vw;
+    position: fixed;
+}
+
+header .container{
+    background-color: #d3bfff;
+    min-width: 100vw;
+    min-height: (7vh, 200px);
+    align-items: center;
+    border-style: none;
+  }
+
+  @media (max-width: 40em) {
+    .container{
+        height: 6vh;
+      }
+}
+  
+  header nav{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+  }
+  
+  header a{
+    padding: 10px 5vh;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+    color: #1a1a1a;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 2vh;
+  }
+
+  @media (max-width: 40em) {
+    header a{
+        padding-top: 2vh;
+        font-size: 3vw;
+      }
+  }
+  
+  header a:hover{
+    color: #5100ff;
+  }
+
+.home{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.logo1 {
+    padding-bottom: 1%;
+}
+
+.logo1 img{
+    margin-inline: auto;
+    width: 100%
+}
+
+.nombre {
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.nombre img{
+    width: 100%;
+}
+
+.tp1 {
+    padding-top: 15%;
+    height: 100vh;
+}
+
+.container1 {
+    margin-inline: auto;
+    width: min(75%, 90.5rem);
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+table {
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgba(255, 255, 255, 0.4);
+    font-weight: 900;
+}
+
+th {
+    padding: 20px 15px ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: #d3bfff4a;
+}
+
+@media (max-width: 40em) {
+
+
+    table {
+        font-size: 9px;
+    }
+
+}
+
+.tp2{
+    padding-top: 15%;
+    height: 100vh;
+}
+
+@media (max-width: 60em) {
+    .tp2{padding-top: 65vh}
+}
+
+.boecio {
+    text-align: center;
+    margin-inline: auto;
+    width: min(75%, 90.5rem);
+    padding-top: 3vh;
+    color: #fff;
+}
+
+.boecio img{
+    justify-self: left;
+    width: 100%
+}
+
+.boeciotext{
+    margin-top: 3%;
+}
+
+.boeciotext p{
+    font-size: 70%;
+    padding-bottom: 2%;
+}
+
+.tp3{
+    height: 100vh;
+    background: #1a1a1a;
+}
+
+@media (max-width: 40em) {
+    .boeciotext p{
+        font-size: 40%;
+        padding-bottom: 5%;
+    }    
+}
+
